@@ -11,7 +11,7 @@ RUN DEBIAN_FRONTEND=noninteractive \
 # --- Custom Code here:
 
 # Add additional apt-packages and dependencies here:
-RUN apt-get install -y pulseaudio dbus-x11 procps psmisc
+RUN apt-get install -y wget pulseaudio dbus-x11 procps psmisc
 
 # Custom Script(s) here:
 
